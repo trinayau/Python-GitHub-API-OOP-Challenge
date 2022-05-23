@@ -12,10 +12,10 @@ class TestAPICase():
         mock_response.json.return_value = repo_test_list
 
         mock_requests_get = mock.Mock(return_value=mock_response)
-
+        username = repo_test_list[0]["username"]
         requests.get = mock_requests_get
-        fetch_repos()
-        mock_requests_get.assert_called_with('https://api.github.com/users/')
+        fetch_repos(username)
+        mock_requests_get.assert_called_with(f'https://api.github.com/users/{username}/repos')
 
 
 class TestCLICase():

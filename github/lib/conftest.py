@@ -15,11 +15,11 @@ def repo_test_list():
         {   "username": "username",
             "name": "Test Repo 1",
             "description": "Test Description",
-            "forks": "Test Fork"
+            "forks_count": "Test Fork"
         },
         { 
             "name": "Test House 2",
             "description": "Test Description 2",
-            "forks": "Test Fork 2"
+            "forks_count": "Test Fork 2"
         }
     ]
