@@ -5,7 +5,7 @@ def repo_test_data():
     return { 
         "name": "Test Repo",
         "description": "Test Description",
-        "forks": "Test Fork"
+        "forks_count": "Test Fork"
     }
 
 
