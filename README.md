@@ -17,4 +17,7 @@ This was the brief:
 
 ### Usage
 1. Type `pipenv run start` into terminal to start the CLI
-2. 
+2. Follow the inputs in the CLI!
+
+## Final
+![final look of python cli](demo.gif)
